@@ -51,13 +51,16 @@ bathroom = st.slider('Number of bathrooms', 1,20,4)
 st.subheader('Estimated price in lacs rupees')
              
             
-st.header(get_estimated_price(areas,sqfit, bhk1, bathroom))
+st.header(get_estimated_price(areas,sqfit, bhk1, bathroom),'lacs')
 
-"For", str(bhk1),'BHK with', str(bathroom),'bathroom', ' with a square feet area',str(sqfit),'in',areas
+"For", str(bhk1),'BHK with', str(bathroom),'bathroom', ' with a square feet area',str(sqfit),'in',areas.
 
 
 
-st.write("""
+
+
+
+st.sidebar.write("""
 
 Source code [Github link] (https://github.com/emailatmukesh/House-price-prediction--data-science-project/)
 """)
