@@ -14,8 +14,8 @@ This app predicts the **Bangalore House Price**!
 """)
 st.write('---')
 
-
-st.write("""
+st.sidebar.subheader('Welcome guys!')
+st.sidebar.write("""
 
 Data obtained from the [Kaggle](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
 """)
