@@ -45,11 +45,19 @@ areas = st.selectbox('Location',a1)
 
 sqfit = st.slider(' Area in square feet', 200,5000,2000)
 bhk1 = st.slider('BHK', 1,20,4)
-bhatroom = st.slider('Number of bathrooms', 1,20,4)
+bathroom = st.slider('Number of bathrooms', 1,20,4)
 
 #st.write('')
 st.subheader('Estimated price in lacs rupees')
              
             
-st.header(get_estimated_price(areas,sqfit, bhk1, bhatroom))
-"For", str(bhk1),'BHK with', str(bhatroom),'bhatroom', ' with a square feet area',str(sqfit),'in',areas
+st.header(get_estimated_price(areas,sqfit, bhk1, bathroom))
+
+"For", str(bhk1),'BHK with', str(bathroom),'bathroom', ' with a square feet area',str(sqfit),'in',areas
+
+
+
+st.write("""
+
+Source code [Github link] (https://github.com/emailatmukesh/House-price-prediction--data-science-project/)
+""")
