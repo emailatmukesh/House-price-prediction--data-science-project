@@ -55,7 +55,7 @@ est = get_estimated_price(areas,sqfit, bhk1, bathroom)
 st.header(get_estimated_price(areas,sqfit, bhk1, bathroom))
 
 
-st(est),'lacs rupees', "for", str(bhk1),'BHK with', str(bathroom),'bathroom', ' with a square feet area',str(sqfit),'in',areas.
+st(est),'lacs rupees', "for", str(bhk1),'BHK with', str(bathroom),'bathroom', ' with a square feet area',str(sqfit),'in',areas
 
 
 
