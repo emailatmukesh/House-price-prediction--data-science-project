@@ -15,9 +15,12 @@ This app predicts the **Bangalore House Price**!
 st.write('---')
 
 st.sidebar.subheader('Welcome guys!')
+
 st.sidebar.write("""
 
-Data obtained from the [Kaggle](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
+Thank you [Kaggle!](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data) for such a wonderful data set.
+
+For source code -: [Click here!] (https://github.com/emailatmukesh/House-price-prediction--data-science-project/)
 """)
 
 with open('./banglore_home_prices_model.pickle', 'rb') as f:
@@ -62,7 +65,4 @@ st.header(get_estimated_price(areas,sqfit, bhk1, bathroom))
 
 
 
-st.sidebar.write("""
 
-Source code [Github link] (https://github.com/emailatmukesh/House-price-prediction--data-science-project/)
-""")
